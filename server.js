@@ -43,4 +43,35 @@ app.post("/api/notes", function (req, res) {
 
   fs.writeFileSync("./db/db.json", JSON.stringify(noteArr));
 
+res.json({
+  isError: false,
+  message: "Note saved",
+  port: PORT,
+  status: 200,
+  success: true,
+});
+});
+// delete notes
+app.delete("/api/notes/:id", function (req, res) {
+let id = parseInt(req.params.id);
+let removeItemArray = noteArr.filter((item) => item.id != id);
+
+removeItemArray.forEach(
+  (element) => (element.id = removeItemArray.indexOf(element))
+);
+
+fs.writeFileSync("./db/db.json", JSON.stringify(removeItemArray));
+
+res.json({
+  isError: false,
+  message: "Note deleted",
+  port: PORT,
+  status: 200,
+  success: true,
+});
+});
+
+// Redirect to root
+app.get("*", function (req, res) {
+res.redirect("/");
 });
