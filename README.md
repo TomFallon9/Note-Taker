@@ -4,9 +4,9 @@
 
 Built with Express
 
-* URL of the deployed application: .herokuapp.com
+URL of the deployed application: .herokuapp.com
 
-* URL of the GitHub repository: https://github.com/tomfallon9/note-taker
+URL of the GitHub repository: https://github.com/tomfallon9/note-taker
 
 </div>
 
