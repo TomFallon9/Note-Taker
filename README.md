@@ -22,7 +22,7 @@ URL of the GitHub repository: https://github.com/tomfallon9/note-taker
 
 ## Description
 
-This application can be used to write, save, and delete notes and uses an express backend and save and retrieve note data from a JSON file. It be used to organize, update, and when done, delete notes when needed.
+This application can be used to write, save, and delete notes and uses an express backend and save and retrieve note data from a JSON file. Can be used to organize, update, and when done, delete notes when needed.
 
 ### Acceptance Criteria
 
@@ -32,13 +32,17 @@ This application can be used to write, save, and delete notes and uses an expres
 
 ## View
 
-To view the website, you can click [here](https://.herokuapp.com/).
+To view the website, you can click [here](https://note-taker1001.herokuapp.com/).
 
 ## Usage
 
 In this application, the user can write, save, view, and delete notes. The following gif demonstrates application functionality.
 
-![](notetaker.gif)
+![](assets/notetakergif1.gif)
+
+![](assets/notetakergif2.gif)
+
+![](assets/notetakergif3.gif)
 
 ## Built With
 
