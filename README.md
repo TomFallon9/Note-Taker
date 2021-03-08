@@ -4,7 +4,7 @@
 
 Built with Express
 
-URL of the deployed application: .herokuapp.com
+URL of the deployed application: https://note-taker1001.herokuapp.com/
 
 URL of the GitHub repository: https://github.com/tomfallon9/note-taker
 
@@ -18,7 +18,7 @@ URL of the GitHub repository: https://github.com/tomfallon9/note-taker
 * [Usage](#usage)
 * [Built With](#built-with)
 * [Credits](#credits)
-* [License](#license)
+
 
 ## Description
 
@@ -33,6 +33,7 @@ This application can be used to write, save, and delete notes and uses an expres
 ## View
 
 To view the website, you can click [here](https://note-taker1001.herokuapp.com/).
+To view the website, you can click [here](https://note-taker1001.herokuapp.com).
 
 ## Usage
 
