@@ -33,7 +33,7 @@ This application can be used to write, save, and delete notes and uses an expres
 ## View
 
 To view the website, you can click [here](https://note-taker1001.herokuapp.com/).
-To view the website, you can click [here](https://note-taker1001.herokuapp.com).
+
 
 ## Usage
 
@@ -44,6 +44,7 @@ In this application, the user can write, save, view, and delete notes. The follo
 ![](assets/notetakergif2.gif)
 
 ![](assets/notetakergif3.gif)
+
 
 ## Built With
 
